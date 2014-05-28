@@ -1,0 +1,7 @@
+point	title	description	icon
+4.68036,10.4983	00-004-FMU	Milicia excelsa	
+4.95156,13.63019	10-003/004-FMU	Entandrophragma cylindricum, Milicia excelsa	
+3.16618,15.45443	10-004-FMU	Entandrophragma cylindricum, Milicia excelsa	
+5.07623,13.342	10-007-FMU	Entandrophragma cylindricum	
+3.54971,14.66122	10-026/051FMU	Entandrophragma cylindricum	
+4.20958,14.05071	10-026-FMU	Entandrophragma cylindricum	

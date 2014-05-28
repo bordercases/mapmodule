@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- "Import" core, map, load map scripts and data, Page (necessary?), and spring tags -->
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" 
+	 xmlns:map="urn:jsptagdir:/WEB-INF/tags/map/" 
+	 xmlns:jsp="http://java.sun.com/JSP/Page" 
+	 xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    
+    <map:load></map:load>
+    
+</div>

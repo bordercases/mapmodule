@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jsp:root xmlns:c="http://java.sun.com/jsp/jstl/core"
+	 	  xmlns:jsp="http://java.sun.com/JSP/Page"
+	 	  xmlns:custom="urn:jsptagdir:/WEB-INF/tags"
+	 	  xmlns:spring="http://www.springframework.org/tags"
+	 	  version="2.0">
+<!-- TODO: copyright character escape from javascript -->
+<jsp:output omit-xml-declaration="yes" />
+	
+	<spring:url value="/resources/styles/leaflet.css" var="leaflet_url"/> <!-- stylesheet for leaflet objects is necessary, or else the image doesn't load properly and we get bounding errors with the frame -->
+	<spring:url value="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js" var="leaflet_script"/>
+	
+	<link rel="stylesheet" href="${leaflet_url}" type="text/css"/>
+	<script src="${leaflet_script}" type="text/javascript"><!-- required for FF3 and Opera --></script>
+	
+	<script language="JavaScript" type="text/javascript">
+		
+		// Init javascript manually - put full program into init() function
+		function init(){
+			// LEAFLET MAP //
+			// Default tutorial map//
+			
+			var map = L.map('map').setView([51.505, -0.09], 13);
+		
+			L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+				maxZoom: 18,
+				attribution: 'Map data <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+					'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+					'Imagery <a href="http://mapbox.com">Mapbox</a>',
+				id: 'examples.map-i86knfo3'
+			}).addTo(map);
+		
+		
+			L.marker([51.5, -0.09]).addTo(map)
+				.bindPopup("<b>Hello world!</b><br />I am a popup.").openPopup();
+		
+			L.circle([51.508, -0.11], 500, {
+				color: 'red',
+				fillColor: '#f03',
+				fillOpacity: 0.5
+			}).addTo(map).bindPopup("I am a circle.");
+		
+			L.polygon([
+				[51.509, -0.08],
+				[51.503, -0.06],
+				[51.51, -0.047]
+			]).addTo(map).bindPopup("I am a polygon.");
+		
+			var popup = L.popup();
+		
+			function onMapClick(e) {
+				popup
+					.setLatLng(e.latlng)
+					.setContent("You clicked the map at " + e.latlng.toString())
+					.openOn(map);
+			}
+		
+			map.on('click', onMapClick);
+		}
+		
+		// Event listener catches when the DOM content is fully loaded; then launches the map script
+		document.addEventListener("DOMContentLoaded", function()
+		{
+			init();
+		}, false);
+		
+	</script>
+	
+	<div id="map" style="width: 540px; height: 480px"><!-- required for FF3 and Opera --></div>
+	<!-- doesn't take percentage values for height and width -->
+	<!-- height can pretty much be whatever you want, but width seems to push up against the sides of the frame assigned to "body" -->
+
+
+</jsp:root>	

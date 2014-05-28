@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_mapmodule" z="knvZ+MDDvK+9ctikarSXZZB0pA8=">
+            <menu:item id="i_mapmodule_new" messageCode="global_menu_new" url="/mapmodules?form" z="Sf0bDLGQZXT5v8KO+L5G4PfqHLg="/>
+            <menu:item id="i_mapmodule_list" messageCode="global_menu_list" url="/mapmodules?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6BUtkYsfgX/a6t8JukqFpv4CBcY="/>
+            <!-- TODO: messageCode might be in wrong place (application.properties vs message.properties); blank z value-->
+            <menu:item id="i_mapmodule_map" messageCode="menu_map" url="/mapmodules/map" z=""/>
+        </menu:category>
+    </menu:menu>
+</div>

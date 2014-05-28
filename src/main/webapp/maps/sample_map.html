@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>GTTN Prototype</title>
+        <link rel="stylesheet" href="http://openlayers.org/dev/theme/default/style.css" type="text/css">
+        <link rel="stylesheet" href="http://openlayers.org/dev/examples/style.css" type="text/css">
+        <script src="http://openlayers.org/api/OpenLayers.js"></script>
+
+    <script type="text/javascript">
+        var map, layer;
+
+        function init(){
+            OpenLayers.ProxyHost="/proxy/?url=";
+            // create new map object
+                 var map = new OpenLayers.Map({
+                                              div: "map",
+                                              theme: null,
+                                              center: new OpenLayers.LonLat(0, 0),
+                                              zoom: 1
+                                          });
+            
+            // implement WMS service
+            //layer = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+            //    "http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'} ); //set WMS service address here
+            
+            layer = new OpenLayers.Layer.OSM("OpenStreetMap")
+            
+            // attach layer to map
+            map.addLayer(layer);
+            map.setCenter(new OpenLayers.LonLat(0, 0), 0);
+            
+            // LAYER DOCUMENTATION - method types
+            // http://dev.openlayers.org/docs/files/OpenLayers/Layer/WMS-js.html
+            
+            // add "text" object
+            // point to tab delimited table giving marker type, marker lat/long, text display
+            var newl = new OpenLayers.Layer.Text( "Sample Sites", { location:"sample_map_data.csv"} );
+
+            map.addLayer(newl);
+            
+            //var markers = new OpenLayers.Layer.Markers( "Markers" );
+            //map.addLayer(markers);
+
+            var size = new OpenLayers.Size(21,25);
+            var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+            //var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png',size,offset);
+            //markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon));
+
+            //var halfIcon = icon.clone();
+            //markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,45),halfIcon));
+            //halfIcon.setOpacity(0.5);
+            
+            //marker = new OpenLayers.Marker(new OpenLayers.LonLat(90,10),icon.clone());
+            //marker.setOpacity(0.2);
+            //marker.events.register('mousedown', marker, function(evt) { alert(this.icon.url); OpenLayers.Event.stop(evt); });
+            //markers.addMarker(marker); 
+            
+            map.addControl(new OpenLayers.Control.LayerSwitcher());
+            map.zoomToMaxExtent();
+
+            
+        }
+    </script>
+        </head>
+        <body onload="init()">
+            <div style="width:100%; height:100%" id="map"></div>
+            <div id="map" class="smallmap"></div>
+        </body>
+</html>

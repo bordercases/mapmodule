@@ -1,0 +1,31 @@
+point	title	description	icon
+-11.11,-69.06	Bolivia	Swietenia  macrophylla
+-17.98,-63.47	Bolivia	Swietenia  macrophylla
+-15.73,-62.85	Bolivia	Swietenia  macrophylla
+-15.78,-62.92	Bolivia	Swietenia  macrophylla
+-15.78,-62.92	Bolivia	Swietenia  macrophylla
+-15.01,-67.1	Bolivia	Swietenia  macrophylla
+-15.63,-67.17	Bolivia	Swietenia  macrophylla
+-16.1,-62.98	Bolivia	Swietenia  macrophylla
+11.07,-85.49	Costa Rica	Swietenia  macrophylla
+10.96,-84.74	Costa Rica	Swietenia  macrophylla
+10.53,-84.83	Costa Rica	Swietenia  macrophylla
+17,-89.66	Costa Rica	Swietenia  macrophylla
+15.83,-94.91	Guatemala	Swietenia  macrophylla
+17.66,-89.41	Honduras	Swietenia  macrophylla
+16.91,-88.08	Mexico	Swietenia 1  macrophylla
+18.41,-84.16	Mexico	Swietenia 2 macrophylla
+19.5,-83.91	Mexico	Swietenia 3 macrophylla
+13.66,-80.66	Mexico	Swietenia 4  macrophylla
+11.83,-78	Nicaragua	Swietenia  macrophylla
+7.58,-88.72	Nicaragua	Swietenia  macrophylla
+8.83,-88.68	Panama	Swietenia  macrophylla
+17.64,-50.27	Panama	Swietenia  macrophylla
+17.62,-61.5	Belize	Swietenia  macrophylla
+-6.9,-59.15	Belize	Swietenia  macrophylla
+-12.5,-69.3	Brazil	Swietenia  macrophylla
+-15.08,-61.5	Brazil	Swietenia  macrophylla
+-10.42,-61.43	Brazil	Swietenia  macrophylla
+-12.57,-61.5	Brazil	Swietenia  macrophylla
+-12.37,-61.43	Brazil	Swietenia  macrophylla
+-7.83,-50.27	Brazil	Swietenia  macrophylla

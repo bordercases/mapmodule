@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jsp:root xmlns:c="http://java.sun.com/jsp/jstl/core"
+	 	  xmlns:jsp="http://java.sun.com/JSP/Page"
+	 	  xmlns:custom="urn:jsptagdir:/WEB-INF/tags"
+	 	  xmlns:spring="http://www.springframework.org/tags"
+	 	  version="2.0">
+<!-- TODO: copyright character escape from javascript -->
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<link rel="stylesheet" href="http://openlayers.org/dev/theme/default/style.css" type="text/css"><!-- required for FF3 and Opera --></link>
+	<link rel="stylesheet" href="http://openlayers.org/dev/examples/style.css" type="text/css"><!-- required for FF3 and Opera --></link>
+	
+	<script src="http://openlayers.org/api/OpenLayers.js"><!-- required for FF3 and Opera --></script>
+	<script language="JavaScript" type="text/javascript">
+	
+	    function init(){
+	    	
+	        var map, layer;
+	        
+	        OpenLayers.ProxyHost="/proxy/?url=";
+	        // create new map object
+	             var map = new OpenLayers.Map({
+	                                          div: "map",
+	                                          theme: null,
+	                                          center: new OpenLayers.LonLat(0, 0),
+	                                          zoom: 1
+	                                      });
+	        
+	        // implement WMS service
+	        //layer = new OpenLayers.Layer.WMS( "OpenLayers WMS", 
+	        //    "http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'} ); //set WMS service address here
+	        
+	        layer = new OpenLayers.Layer.OSM("OpenStreetMap")
+	        
+	        // attach layer to map
+	        map.addLayer(layer);
+	        map.setCenter(new OpenLayers.LonLat(0, 0), 0);
+	        
+	        // LAYER DOCUMENTATION - method types
+	        // http://dev.openlayers.org/docs/files/OpenLayers/Layer/WMS-js.html
+	        
+	        // add "text" object
+	        // point to tab delimited table giving marker type, marker lat/long, text display
+	        var newl = new OpenLayers.Layer.Text( "Sample Sites", { location:"/resources/maps/sample_map_data.csv"} );
+	
+	        map.addLayer(newl);
+	        
+	        //var markers = new OpenLayers.Layer.Markers( "Markers" );
+	        //map.addLayer(markers);
+	
+	        var size = new OpenLayers.Size(21,25);
+	        var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+	        //var icon = new OpenLayers.Icon('http://www.openlayers.org/dev/img/marker.png',size,offset);
+	        //markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon));
+	
+	        //var halfIcon = icon.clone();
+	        //markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,45),halfIcon));
+	        //halfIcon.setOpacity(0.5);
+	        
+	        //marker = new OpenLayers.Marker(new OpenLayers.LonLat(90,10),icon.clone());
+	        //marker.setOpacity(0.2);
+	        //marker.events.register('mousedown', marker, function(evt) { alert(this.icon.url); OpenLayers.Event.stop(evt); });
+	        //markers.addMarker(marker); 
+	        
+	        map.addControl(new OpenLayers.Control.LayerSwitcher());
+	        map.zoomToMaxExtent();
+	
+	        
+	    }
+		
+		// Event listener catches when the DOM content is fully loaded; then launches the map script
+		document.addEventListener("DOMContentLoaded", function()
+		{
+			init();
+		}, false);
+		
+	</script>
+	
+	<div style="width:500px; height:400px" id="map" class="smallmap"><!-- required for FF3 and Opera --></div>
+    
+</jsp:root>

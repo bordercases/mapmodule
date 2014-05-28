@@ -1,0 +1,15 @@
+<aspectj>
+<aspects>
+<aspect name="com.gttn.mapmodule.MapmoduleController_Roo_Controller_Json"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_JavaBean"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_Jpa_Entity"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_Configurable"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_Json"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.gttn.mapmodule.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.gttn.mapmodule.domain.Mapmodule_Roo_ToString"/>
+<aspect name="com.gttn.mapmodule.MapmoduleController_Roo_Controller"/>
+<aspect name="com.gttn.mapmodule.repository.MapmoduleRepository_Roo_Jpa_Repository"/>
+</aspects>
+</aspectj>
+

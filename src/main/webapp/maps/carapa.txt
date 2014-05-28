@@ -1,0 +1,80 @@
+point	title	description	icon
+10.46,-84.07	Costa Rica 	 genus Carapa
+10.2,-83.88	Costa Rica 	 genus Carapa
+0.33,-79.72	Ecuador 	 genus Carapa
+0.18,-79.81	Ecuador 	 genus Carapa
+0.1,-80.03	Ecuador 	 genus Carapa
+0.12,-79.03	Ecuador 	 genus Carapa
+-8.94,-69.27	Brazil 	 genus Carapa
+-3.69,-64.82	Brazil 	 genus Carapa
+-2.8,-60	Brazil 	 genus Carapa
+-3.07,-55.58	Brazil 	 genus Carapa
+7.83,-61.83	Venezuala	 genus Carapa
+8.46,-62.43	Venezuala	 genus Carapa
+4.96,-55.18	Suriname 	 genus Carapa
+5.03,-52.08	French Guiana	 genus Carapa
+5.48,-53.99	French Guiana	 genus Carapa
+5.53,-53.45	French Guiana	 genus Carapa
+5.32,-53.67	French Guiana	 genus Carapa
+5.32,-53.63	French Guiana	 genus Carapa
+5.35,-52.18	French Guiana	 genus Carapa
+5.32,-53.67	French Guiana	 genus Carapa
+5.43,-53.08	French Guiana	 genus Carapa
+5.32,-53.03	French Guiana	 genus Carapa
+5.25,-52.92	French Guiana	 genus Carapa
+5.72,-52.93	French Guiana	 genus Carapa
+4.98,-52.98	French Guiana	 genus Carapa
+5.05,-53.05	French Guiana	 genus Carapa
+5.02,-53.03	French Guiana	 genus Carapa
+5.11,-52.65	French Guiana	 genus Carapa
+4.92,-52.5	French Guiana	 genus Carapa
+4.95,-52.63	French Guiana	 genus Carapa
+4.87,-52.25	French Guiana	 genus Carapa
+4.85,-52.33	French Guiana	 genus Carapa
+4.63,-52.3	French Guiana	 genus Carapa
+4.66,-52.3	French Guiana	 genus Carapa
+4.53,-52.45	French Guiana	 genus Carapa
+4.45,-52.35	French Guiana	 genus Carapa
+4.3,-53.37	French Guiana	 genus Carapa
+4.87,-52.25	French Guiana	 genus Carapa
+4.07,-52.17	French Guiana	 genus Carapa
+4.12,-52.18	French Guiana	 genus Carapa
+3.87,-51.87	French Guiana	 genus Carapa
+4.05,-52.7	French Guiana	 genus Carapa
+3.58,-53.2	French Guiana	 genus Carapa
+2.51,-53.81	French Guiana	 genus Carapa
+2.21,-54.42	French Guiana	 genus Carapa
+4.96,-55.18	Suriname 	 genus Carapa
+10.2,-83.88	Costa Rica 	 genus Carapa
+-5.6,-45.27	Brazil 	 genus Carapa
+-1.19,-46.14	Brazil 	 genus Carapa
+-1.6,-47.62	Brazil 	 genus Carapa
+-1.43,-48.5	Brazil 	 genus Carapa
+-3.02,-49.21	Brazil 	 genus Carapa
+-3.76,-49.67	Brazil 	 genus Carapa
+-1.94,-50.81	Brazil 	 genus Carapa
+0.04,-51.07	Brazil 	 genus Carapa
+-3.48,-52.5	Brazil 	 genus Carapa
+-1.46,-52.59	Brazil 	 genus Carapa
+-2.42,-54.7	Brazil 	 genus Carapa
+2.48,-54.75	Suriname	 genus Carapa
+-3.61,-54.75	Brazil	 genus Carapa
+-2.69,-54.89	Brazil	 genus Carapa
+-1.75,-55.86	Brazil	 genus Carapa
+-3.09,-58.44	Brazil	 genus Carapa
+-3.13,-58.44	Brazil	 genus Carapa
+-2.88,-59.97	Brazil	 genus Carapa
+-1.82,-60.03	Brazil	 genus Carapa
+8.07,-61.73	Venezuala	 genus Carapa
+8.21,-61.75	Guiana	 genus Carapa
+8.27,-62.22	Venezuala	 genus Carapa
+10.13,-62.68	Tobago	 genus Carapa
+9.33,-63.01	Venezuala	 genus Carapa
+8.08,-63.53	Venezuala	 genus Carapa
+-7.23,-64.8	Brazil	 genus Carapa
+-10,-67.83	Brazil	 genus Carapa
+-9.97,-67.84	Brazil	 genus Carapa
+-3.33,-68.88	Brazil	 genus Carapa
+3.93,-77.17	Colombia	 genus Carapa
+16.25,-88.86	Belize	 genus Carapa
+

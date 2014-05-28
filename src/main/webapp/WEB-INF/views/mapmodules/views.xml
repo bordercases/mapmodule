@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="mapmodules/list">
+        <put-attribute name="body" value="/WEB-INF/views/mapmodules/list.jspx"/>
+    </definition>
+<definition extends="default" name="mapmodules/show">
+        <put-attribute name="body" value="/WEB-INF/views/mapmodules/show.jspx"/>
+    </definition>
+<definition extends="default" name="mapmodules/create">
+        <put-attribute name="body" value="/WEB-INF/views/mapmodules/create.jspx"/>
+    </definition>
+<definition extends="default" name="mapmodules/update">
+        <put-attribute name="body" value="/WEB-INF/views/mapmodules/update.jspx"/>
+    </definition>
+<definition extends="default" name="mapmodules/map">
+		<!-- <put-attribute name="header" value="/WEB-INF/views/mapmodules/map.jspx"> -->
+        <put-attribute name="body" value="/WEB-INF/views/mapmodules/map.jspx"/>
+    </definition>
+</tiles-definitions>
