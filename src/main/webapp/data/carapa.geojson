@@ -1,0 +1,558 @@
+ {  
+    "type" : "Feature Collection",
+    "features" : [
+        { 
+        "type" : "Feature",
+        "id" : 0,
+        "geometry" : {
+            "type" : "Point",
+            "coordinates" : [-84.07,10.46]
+        },
+        "properties" : { 
+            "name" : "Carapa", 
+            "value" : "Costa Rica"
+        }
+        },
+        
+
+        
+        { "type" : "Feature",
+        "id" : 1,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-83.88,10.2]},
+        "properties" : { "name" : "  Carapa", "value" : "Costa Rica "}
+        },
+         { "type" : "Feature",
+        "id" : 2,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-79.72,0.33]},
+        "properties" : { "name" : "  Carapa", "value" : "Ecuador "}
+        },
+         { "type" : "Feature",
+        "id" : 3,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-79.81,0.18]},
+        "properties" : { "name" : "  Carapa", "value" : "Ecuador "}
+        },
+         { "type" : "Feature",
+        "id" : 4,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-80.03,0.1]},
+        "properties" : { "name" : "  Carapa", "value" : "Ecuador "}
+        },
+         { "type" : "Feature",
+        "id" : 5,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-79.03,0.12]},
+        "properties" : { "name" : "  Carapa", "value" : "Ecuador "}
+        },
+         { "type" : "Feature",
+        "id" : 6,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-69.27,-8.94]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 7,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-64.82,-3.69]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 8,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-60,-2.8]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 9,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-55.58,-3.07]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 10,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-61.83,7.83]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 11,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-62.43,8.46]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 12,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-55.18,4.96]},
+        "properties" : { "name" : "  Carapa", "value" : "Suriname "}
+        },
+         { "type" : "Feature",
+        "id" : 13,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.08,5.03]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 14,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.99,5.48]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 15,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.45,5.53]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 16,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.67,5.32]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 17,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.63,5.32]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 18,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.18,5.35]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 19,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.67,5.32]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 20,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.08,5.43]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 21,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.03,5.32]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 22,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.92,5.25]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 23,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.93,5.72]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 24,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.98,4.98]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 25,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.05,5.05]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 26,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.03,5.02]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 27,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.65,5.11]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 28,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.5,4.92]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 29,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.63,4.95]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 30,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.25,4.87]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 31,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.33,4.85]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 32,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.3,4.63]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 33,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.3,4.66]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 34,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.45,4.53]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 35,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.35,4.45]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 36,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.37,4.3]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 37,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.25,4.87]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 38,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.17,4.07]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 39,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.18,4.12]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 40,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-51.87,3.87]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 41,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.7,4.05]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 42,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.2,3.58]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 43,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-53.81,2.51]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 44,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.42,2.21]},
+        "properties" : { "name" : "  Carapa", "value" : "French Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 45,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-55.18,4.96]},
+        "properties" : { "name" : "  Carapa", "value" : "Suriname "}
+        },
+         { "type" : "Feature",
+        "id" : 46,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-83.88,10.2]},
+        "properties" : { "name" : "  Carapa", "value" : "Costa Rica "}
+        },
+         { "type" : "Feature",
+        "id" : 47,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-45.27,-5.6]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 48,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-46.14,-1.19]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 49,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-47.62,-1.6]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 50,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-48.5,-1.43]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 51,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-49.21,-3.02]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 52,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-49.67,-3.76]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 53,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-50.81,-1.94]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 54,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-51.07,0.04]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 55,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.5,-3.48]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 56,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-52.59,-1.46]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 57,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.7,-2.42]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil "}
+        },
+         { "type" : "Feature",
+        "id" : 58,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.75,2.48]},
+        "properties" : { "name" : "  Carapa", "value" : "Suriname"}
+        },
+         { "type" : "Feature",
+        "id" : 59,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.75,-3.61]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 60,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-54.89,-2.69]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 61,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-55.86,-1.75]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 62,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-58.44,-3.09]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 63,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-58.44,-3.13]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 64,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-59.97,-2.88]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 65,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-60.03,-1.82]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 66,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-61.73,8.07]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 67,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-61.75,8.21]},
+        "properties" : { "name" : "  Carapa", "value" : "Guiana"}
+        },
+         { "type" : "Feature",
+        "id" : 68,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-62.22,8.27]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 69,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-62.68,10.13]},
+        "properties" : { "name" : "  Carapa", "value" : "Tobago"}
+        },
+         { "type" : "Feature",
+        "id" : 70,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-63.01,9.33]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 71,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-63.53,8.08]},
+        "properties" : { "name" : "  Carapa", "value" : "Venezuala"}
+        },
+         { "type" : "Feature",
+        "id" : 72,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-64.8,-7.23]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 73,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-67.83,-10]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 74,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-67.84,-9.97]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 75,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-68.88,-3.33]},
+        "properties" : { "name" : "  Carapa", "value" : "Brazil"}
+        },
+         { "type" : "Feature",
+        "id" : 76,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-77.17,3.93]},
+        "properties" : { "name" : "  Carapa", "value" : "Colombia"}
+        },
+         { "type" : "Feature",
+        "id" : 77,
+            "geometry" : {
+                "type" : "Point",
+                "coordinates" : [-88.86,16.25]},
+        "properties" : { "name" : "  Carapa", "value" : "Belize"}
+        }]
+}

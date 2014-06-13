@@ -215,7 +215,7 @@ static {
     _jspx_th_spring_005fmessage_005f0.setPageContext(_jspx_page_context);
     _jspx_th_spring_005fmessage_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_005fif_005f1);
     // /WEB-INF/tags/menu/category.tagx(12,124) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005fmessage_005f0.setHtmlEscape("false");
+    _jspx_th_spring_005fmessage_005f0.setHtmlEscape(false);
     // /WEB-INF/tags/menu/category.tagx(12,124) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f0.setVar("label");
     // /WEB-INF/tags/menu/category.tagx(12,124) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null

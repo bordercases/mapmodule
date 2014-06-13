@@ -242,7 +242,7 @@ static {
     _jspx_th_spring_005fmessage_005f0.setPageContext(_jspx_page_context);
     _jspx_th_spring_005fmessage_005f0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_005fif_005f1);
     // /WEB-INF/tags/menu/item.tagx(14,124) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005fmessage_005f0.setHtmlEscape("false");
+    _jspx_th_spring_005fmessage_005f0.setHtmlEscape(false);
     // /WEB-INF/tags/menu/item.tagx(14,124) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f0.setVar("label");
     // /WEB-INF/tags/menu/item.tagx(14,124) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
@@ -299,7 +299,7 @@ static {
     _jspx_th_spring_005fmessage_005f1.setPageContext(_jspx_page_context);
     _jspx_th_spring_005fmessage_005f1.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_c_005fif_005f2);
     // /WEB-INF/tags/menu/item.tagx(18,99) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005fmessage_005f1.setHtmlEscape("false");
+    _jspx_th_spring_005fmessage_005f1.setHtmlEscape(false);
     // /WEB-INF/tags/menu/item.tagx(18,99) name = arguments type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f1.setArguments((java.lang.Object) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${label}", java.lang.Object.class, (PageContext)this.getJspContext(), null, false));
     // /WEB-INF/tags/menu/item.tagx(18,99) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null

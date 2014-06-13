@@ -425,7 +425,7 @@ static {
     // /WEB-INF/views/footer.jspx(31,79) name = var type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f3.setVar("sponsored");
     // /WEB-INF/views/footer.jspx(31,79) name = htmlEscape type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_spring_005fmessage_005f3.setHtmlEscape("false");
+    _jspx_th_spring_005fmessage_005f3.setHtmlEscape(false);
     // /WEB-INF/views/footer.jspx(31,79) name = code type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
     _jspx_th_spring_005fmessage_005f3.setCode("global_sponsored");
     int[] _jspx_push_body_count_spring_005fmessage_005f3 = new int[] { 0 };

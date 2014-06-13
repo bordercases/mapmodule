@@ -9,6 +9,9 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     
-    <map:load></map:load>
+    <map:load>
+    	<!-- Body will be the input for the data that will be turned into the layer -->
+    	<!-- Currently hardcoded -->
+    </map:load>
     
 </div>
