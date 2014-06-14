@@ -13,5 +13,20 @@
     	<!-- Body will be the input for the data that will be turned into the layer -->
     	<!-- Currently hardcoded -->
     </map:load>
+    <SCRIPT type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function()
+		{
+			if (window.jQuery) {  
+		        alert("jQuery Loaded");  
+		    } else {
+				alert("jQuery not (yet?) loaded")
+		    }
+			if(window.jQuery.ui){
+		        alert("jQueryUI Loaded");  
+		    } else {
+				alert("jQueryUI not (yet?) loaded")
+		    }
+		}, false);
+    </SCRIPT>
     
 </div>
